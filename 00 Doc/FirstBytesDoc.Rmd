@@ -1,0 +1,18 @@
+---
+output: word_document
+---
+First Bytes - R Technology
+====
+
+```{r}
+sessionInfo()
+```
+![](./NewRepository.png)
+
+Basic R Language Constructs
+
+```{r}
+source("../01 Basic R/Basic.R", echo = TRUE)
+```
+
+

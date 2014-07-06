@@ -1,0 +1,18 @@
+Title
+====
+This is an R markdown document.
+Essentially identical to the markdown you *already* know.
+We can represent chunks of code
+
+```{r engine='bash'}
+pwd
+```
+```
+x<-rnorm(100)
+hist(x)
+```
+
+*And we can embed images*
+
+![](/Users/pcannata/Mine/Infiniband/APEXImges/CustomerOrder.png)
+![](./image.png)
