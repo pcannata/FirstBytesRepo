@@ -60,7 +60,6 @@ See also http://www.r-tutor.com/r-introduction/data-frame
 source("../02 R Dataframes/Dataframes.R", echo = TRUE)
 ```
 
-
 ###ggplot2
 
 See also http://ggplot2.org/
@@ -68,5 +67,9 @@ See also http://ggplot2.org/
 ```{r}
 source("../03 ggplot/01 Histograms.R", echo = TRUE)
 ```
+
+###slidify
+
+See also http://slidify.org and http://slidify.org/start.html
 
 
