@@ -83,5 +83,8 @@ See also http://slidify.org and http://slidify.org/start.html
 
 See also http://shiny.rstudio.com/
 
+cd "06 shiny"
+library(shiny)
+runApp()
 
 
