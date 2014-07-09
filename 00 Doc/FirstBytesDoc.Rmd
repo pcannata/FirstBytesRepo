@@ -78,29 +78,44 @@ source("../03 ggplot/plotFunction.R", echo = TRUE)
 You should be able to open FirstBytesRepo/00 Doc/4diamonds.png now.
 
 ###KnitR
-
+**KnitR is an R package designed to generate dynamic reports using a mix of the R, LaTex, and Markdown languages.**  
 See also http://yihui.name/knitr/ and http://kbroman.github.io/knitr_knutshell/
 
+**Simple examples can be found in "04 KnitR/doc1.Rmd" and "04 KnitR/doc1.Rmd". These can generate html, pdf, and word documents.**  
+**A comprehensive example (which generated this document) can be found in "00 Doc/FirstBytesDoc.Rmd".**  
+
 ###slidify
+**You can use Slidify to generate HTML slide decks using only the Rmarkdown language.**  
 
 See also http://slidify.org and http://slidify.org/start.html
 
+**See "05 Slidify/slidify setup.R"**  
+**Cool trick - Any github repo with a branch called gh-pages will get served as a website. If the content of that repo is the stuff of websites (html,css), then you get free web hosting. So, create a branch called gh-pages and push to it.**  
+
 ###shiny
+**The shiny R package allows you to build interactive web-based applications using only R with no knowledge of html, css, or javascript needed. You just need to write two scripts:**  
 
-See also http://shiny.rstudio.com, http://shiny.rstudio.com/tutorial, and https://www.shinyapps.io/
+* ui.R : Defines the layout and the interactive elements that the user can access.
+* server.R : Defines what computations are done in response to user interactions. 
 
-From the main FirstBytesRepo directory:  
-setwd("06 Shiny")  
-library(shiny)  
-runApp()  
+See also http://shiny.rstudio.com, http://shiny.rstudio.com/tutorial, https://www.shinyapps.io/, and http://shiny.rstudio.com/articles/shinyapps.html 
 
-package ‘shinyapps’ is not available (for R version 3.0.2)  
-library("devtools", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")  
+library(shiny)
+getwd()
+runApp("../06Shiny")
+
+**library("devtools", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")  
 install_github( repo = "shinyapps", username="rstudio" )  
-shinyapps::setAccountInfo(name='pcannata', token='3ECF447A741004F6A8B7208C9ED778E1', secret='ebpHrZqN3AQzqfEnxB+gy0Au/ThAdsfQL7aFPJNE')  
+shinyapps::setAccountInfo(name='pcannata', token='3ECF447A741004F6A8B7208C9ED778E1', secret='. . . ')**  
 
-http://shiny.rstudio.com/articles/shinyapps.html  
-library(shinyapps)  
-deployApp()  
+![](./shinyapps.io.png)
+
+![](./pcannata.shinyapps.io.png)
+
+```{r}
+library(shinyapps)
+getwd()
+deployApp("../06Shiny")
+```
 
 

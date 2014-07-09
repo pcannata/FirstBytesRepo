@@ -1,7 +1,13 @@
 Using knitr to make dynamic documents
 ==================
 
-Now we embed code in a special syntax, which sends it to an R process, and the output is shown in the document.
+Now we embed code in a special syntax, which sends it to an R process, and the output is shown in the document.  
+
+* Item 1
+* Item 2
+    + Item 2a
+    + Item 2b
+    
 
 ```{r}
 x<-rnorm(1000)
