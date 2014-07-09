@@ -65,15 +65,21 @@ source("../02 R Dataframes/Dataframes.R", echo = TRUE)
 
 ###ggplot2
 
-See also http://ggplot2.org/
+See also http://ggplot2.org/, http://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf, and https://groups.google.com/forum/#!forum/ggplot2
 
 ```{r}
 source("../03 ggplot/01 Histograms.R", echo = TRUE)
 ```
 
+```{r}
+source("../03 ggplot/plotFunction.R", echo = TRUE)
+```
+
+You should be able to open FirstBytesRepo/00 Doc/4diamonds.png now.
+
 ###KnitR
 
-See also http://yihui.name/knitr/
+See also http://yihui.name/knitr/ and http://kbroman.github.io/knitr_knutshell/
 
 ###slidify
 

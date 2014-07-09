@@ -1,19 +1,12 @@
----
-output: html_document
----
 Title
 ====
 This is an R markdown document.
 Essentially identical to the markdown you *already* know.
 We can represent chunks of code
-
 ```
 x<-rnorm(100)
 hist(x)
 ```
 
-```{r}
-source("../01 Basic R/Basic.R", echo = TRUE)
-```
-
-
+And we can embed images
+![](./image.png)
