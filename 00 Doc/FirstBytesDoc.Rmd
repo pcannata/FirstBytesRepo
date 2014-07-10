@@ -69,18 +69,25 @@ For more on subsetting dataframes see http://www.ats.ucla.edu/stat/r/faq/subset_
 Dataframes can be loaded from databases, CSVs, Excel, etc. Loading dataframes from these sources will not be covered in this workshop.
 
 ###ggplot2
+**ggplot is an R package for data exploration and visualization. It produces production quality graphics and allows you to slice and dice your data in many different ways. ggplot uses a general scheme for data visualization which breaks graphs up into semantic components such as scales and layers. In contrast to other graphics packages, ggplot2 allows the user to add, remove or alter components in a plot at a high level of abstraction.**
 
 See also http://ggplot2.org/, http://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf, and https://groups.google.com/forum/#!forum/ggplot2
 
 ```{r}
-source("../03 ggplot/01 Histograms.R", echo = TRUE)
+source("../03 ggplot/Plots.R", echo = TRUE)
 ```
+
+**The Chapter 7 of "R for Everyone" has many more examples of ggplots.**
+
+###ggplot2 and functions
 
 ```{r}
 source("../03 ggplot/plotFunction.R", echo = TRUE)
 ```
 
-You should be able to open FirstBytesRepo/00 Doc/4diamonds.png now.
+**You should now be able to open FirstBytesRepo/00 Doc/4diamonds.png. It should look like the following plot.**
+
+![](./4diamonds.png) 
 
 ###KnitR
 **KnitR is an R package designed to generate dynamic reports using a mix of the R, LaTex, and Markdown languages.**  
