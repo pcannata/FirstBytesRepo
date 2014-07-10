@@ -3,7 +3,7 @@ output: html_document
 ---
 First Bytes 2014 - R Technology Workshop
 ===
-**R is the most popular free software environment for statistical computing and graphics. ggplot2 is a data visualization package for R that can be used to produce publication-quality graphics. This workshop is designed to intrduce you to R and ggplot as well as RStudio, KnitR, Slidify, and Shiny.  
+**R is the most popular free software environment for statistical computing and graphics. ggplot2 is a data visualization package for R that can be used to produce publication-quality graphics. This workshop is designed to introduce you to R and ggplot as well as RStudio, KnitR, Slidify, and Shiny.  
 R is a central piece of the Big Data Analytics Revolution, for example, see http://opensource.com/business/14/7/interview-david-smith-revolution-analytics for an article entitled "Big data influencer on how R is paving the way"**
 
 ###This is how my RStudio is configured:
