@@ -12,10 +12,14 @@ v2
 v3 <- -5:5
 v3
 "Vector Operations"
+v1
 v1 + 2
+v2
 sqrt(v2)
+v2
+v3
 v2 + v3
-length(4:22)
+length(v3)
 mean(4:22)
 "Data Types: Numeric, Character, Dates, Logical(TRUE, FALSE)"
 "Missing Data: NA"
