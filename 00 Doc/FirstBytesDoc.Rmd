@@ -67,16 +67,16 @@ df = data.frame(n, s, b)       # df is a data frame
 head(df)
 ``` 
 
+Dataframes can be loaded from databases, CSVs, Excel, etc., loading dataframes from these sources will not be covered in this workshop.
+
 See also http://www.r-tutor.com/r-introduction/data-frame
 
-Many R packages come with demo dataframes. The ggplot package comes with a demo dataframe called diamonds.
+Many R packages come with demo dataframes. The ggplot package comes with a demo dataframe called diamonds which we will use for this workshop.
 
 ```{r}
 source("../02 R Dataframes/Dataframes.R", echo = TRUE)
 ```
 For more on subsetting dataframes see http://www.ats.ucla.edu/stat/r/faq/subset_R.htm
-
-Dataframes can be loaded from databases, CSVs, Excel, etc. Loading dataframes from these sources will not be covered in this workshop.
 
 ###ggplot2
 **ggplot is an R package for data exploration and visualization. It produces production quality graphics and allows you to slice and dice your data in many different ways. ggplot uses a general scheme for data visualization which breaks graphs up into semantic components such as scales and layers. In contrast to other graphics packages, ggplot2 allows the user to add, remove or alter components in a plot at a high level of abstraction.**
@@ -108,7 +108,7 @@ See also http://yihui.name/knitr/ and http://kbroman.github.io/knitr_knutshell/
 
 ![](./KnitR.png) 
 
-**A comprehensive KnitR example (which generated this document) can be found in "00 Doc/FirstBytesDoc.Rmd".**  
+####A comprehensive KnitR example (which generated this document) can be found in "00 Doc/FirstBytesDoc.Rmd".  
 
 ###slidify
 **You can use Slidify to generate HTML slide decks using only the Rmarkdown language.**  
@@ -158,7 +158,7 @@ getwd()
 #deployApp("../06Shiny")
 ```
 
-**Now you try the app at https://pcannata.shinyapps.io/06Shiny/ **  
+**Now you can try the app at https://pcannata.shinyapps.io/06Shiny/ **  
 
 See also https://www.shinyapps.io/ and http://shiny.rstudio.com/articles/shinyapps.html 
 
