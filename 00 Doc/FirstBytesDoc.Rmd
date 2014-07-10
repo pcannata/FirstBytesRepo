@@ -3,7 +3,7 @@ output: html_document
 ---
 First Bytes 2014 - R Technology Workshop
 ===
-**R is the most popular free software environment for statistical computing and graphics. ggplot2 is a data visualization package for R that that can be used to produce publication-quality graphics. This workshop is designed to intrduce you to R and ggplot as well as RStudio, KnitR, Slidify, and Shiny.  
+**R is the most popular free software environment for statistical computing and graphics. ggplot2 is a data visualization package for R that can be used to produce publication-quality graphics. This workshop is designed to intrduce you to R and ggplot as well as RStudio, KnitR, Slidify, and Shiny.  
 See also http://opensource.com/business/14/7/interview-david-smith-revolution-analytics**
 
 ###This is how my RStudio is configured:
@@ -59,9 +59,14 @@ source("../01 Basic R/Basic.R", echo = TRUE)
 
 See also http://www.r-tutor.com/r-introduction/data-frame
 
+Many R packages come with demo dataframes. The ggplot package comes with a demo dataframe called diamonds.
+
 ```{r}
 source("../02 R Dataframes/Dataframes.R", echo = TRUE)
 ```
+For more on subsetting dataframes see http://www.ats.ucla.edu/stat/r/faq/subset_R.htm
+
+Dataframes can be loaded from databases, CSVs, Excel, etc. Loading dataframes from these sources will not be covered in this workshop.
 
 ###ggplot2
 
@@ -121,7 +126,7 @@ shinyapps::setAccountInfo(name='pcannata', token='3ECF447A741004F6A8B7208C9ED778
 ```{r}
 library(shinyapps)
 getwd()
-deployApp("../06Shiny")
+#deployApp("../06Shiny")
 ```
 
 **Now you try the app at https://pcannata.shinyapps.io/06Shiny/ **  
