@@ -6,5 +6,5 @@ install_github('slidifyLibraries', 'ramnathv')
 library(slidify)
 author("mydeck")
 # cd to mydeck
-# Edit index.Rmd
+# Edit index.Rmd, add a Title, Subtitle, and Author
 # Knit index.Rmd
